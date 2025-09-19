@@ -1,5 +1,4 @@
 <?php
-
     require_once(__DIR__ . '/../Utils/checkForm.php');
     //Si je reçois ma super global POST avec la clé email alor:
     if(isset($_POST['email'])){
