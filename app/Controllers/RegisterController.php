@@ -58,7 +58,9 @@ if(isset($_POST['pseudo'])){
             // 3- exécuter la requête :
             $queryStatement->execute();
 
+
             redirectToRoute('/', 201);
+
         }
 
     }
