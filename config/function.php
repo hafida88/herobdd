@@ -1,8 +1,6 @@
 <?php 
-
     function redirectToRoute($route, $code){
         http_response_code($code);
-
         header("Location: {$route}");
         exit;
     }
@@ -27,4 +25,11 @@
             </div>
         <?php
 
+    }
+
+    //C'est un var_dump plus stylé 😁
+    function debug ($info){
+        echo '<pre>';
+        var_dump($info);
+        echo '</pre>';
     }
