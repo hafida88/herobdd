@@ -6,10 +6,15 @@
 // Ce tableau associe des chemins d'URI à des fichiers de contrôleurs spécifiques
 // Le chemin dans l'URL (comme '/') est relié au contrôleur correspondant (comme 'HomeController.php')
 $routes = [
+    //La page d'accueil
     '/' => 'HomeController.php',
+    //Connexion déconnexion inscription
     '/register' => 'RegisterController.php',
     '/login' => 'LoginController.php',
-    '/logout' => 'LogoutController.php'
+    '/logout' => 'LogoutController.php',
+    //Les Heros
+    '/addheros' => 'AddHerosController.php',
+    '/hero' =>'HeroController.php'
 ];
 
 // Récupération de l'URI actuelle de la requête utilisateur
